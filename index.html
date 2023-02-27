@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <!-- Open Graph-->
+    <meta property="og:title" content="Curriculum Vitae" />
+    <meta property=”og:description” content=”Este es mi curriculum vitae.”/>
+    <meta property=”og:image” content=”https://randomuser.me/api/portraits/men/55.jpg” />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/30/30582.png">
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS externo-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1>Louis Ellington - CV</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a href="#Presentación" class="nav-link" aria-current="page">Presentación</a>
+                        <a href="#Experiencia" class="nav-link" aria-current="page">Experiencia</a>
+                        <a href="#Formación" class="nav-link" aria-current="page">Formación</a>
+                        <a href="#Objetivos" class="nav-link" aria-current="page">Objetivos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 bg-primary-subtle py-4">
+                <div class="centrado"> <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Louis Ellington"
+                        height="250px" width="250px" /> </div>
+                <div>
+                    <h2>Información personal:</h2>
+                    <address>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-success" id="telefono"> Teléfono</button>
+                            <p id="numero" class="centrado"></p>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-success" id="email"> E-mail</button>
+                            <p class="centrado" id="correo"></p>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-success" id="pais"> País de origen</button>
+                            <p class="centrado" id="lugar"></p>
+                        </div>
+                    </address>
+                </div>
+                <h2>Aptitudes:</h2>
+                <ul>
+                    <li>Creativo</li>
+                    <li>Liderazgo</li>
+                    <li>Comunicación</li>
+                    <li>Gestion de proyectos</li>
+                </ul>
+                <h2>Idiomas:</h2>
+                <ul>
+                    <li>Español</li>
+                    <li>Italiano</li>
+                    <li>Ingles</li>
+                </ul>
+                <!-- envio y metodo sin especificar-->
+                <form action="" method="">
+                    <div class="mb-3">
+                        <h2>Déjame un mensaje:</h2>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mail" class="form-label"></label>
+                        <input type="email" class="form-control" id="mail" placeholder="Correo electronico*"
+                            name="Correo electronico" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Asunto" class="form-label"></label>
+                        <input type="text" class="form-control" id="Asunto" placeholder="Asunto" name="Asunto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Mensaje" class="form-label"></label>
+                        <textarea class="form-control" id="Mensaje" placeholder="Mensaje" rows="3"
+                            name="Mensaje"></textarea>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success" type="submit">Enviar</button>
+                        <button class="btn btn-secondary" type="reset">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 bg-white py-4">
+                <section id="Presentación">
+                    <h2>Presentación</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis nisl sed tortor aliquet,
+                        in
+                        gravida nibh dapibus.
+                        Pellentesque ut consectetur metus. Integer vel risus dui. Interdum et malesuada fames ac ante
+                        ipsum
+                        primis in faucibus.
+                        Nam efficitur blandit vulputate. Nunc tempus suscipit rhoncus. Fusce at gravida dolor. Sed
+                        tincidunt
+                        nisi risus, a accumsan diam efficitur non.
+                        Cras ut justo eu elit mollis tristique vitae eget neque. In ornare ligula non enim venenatis, eu
+                        posuere ante scelerisque.</p>
+                </section>
+                <section id="Experiencia">
+                    <h2>Experiencia laboral</h2>
+                    <ul>
+                        <li>
+                            <h3>Blandit condimentum</h3>
+                        </li>
+                        <p>Nam sed lacus ac diam blandit condimentum quis non dui. Pellentesque vel hendrerit ipsum.</p>
+
+                        <li>
+                            <h3>Nec maximus</h3>
+                        </li>
+                        <p>Donec vestibulum, odio nec maximus tincidunt, tellus erat ultricies dui, a dignissim turpis
+                            nibh
+                            efficitur arcu.</p>
+
+                        <li>
+                            <h3>Suspendisse sit amet erat</h3>
+                        </li>
+                        <p>Proin varius congue augue, ac auctor nibh auctor iaculis. Phasellus ac ante velit. Aliquam eu
+                            ornare
+                            justo.
+                            Suspendisse sit amet erat quis ante imperdiet tincidunt non non purus.
+                            Ut fermentum sem id tortor rutrum, non ultrices magna dapibus.</p>
+                        <li>
+                            <h3>Non non purus</h3>
+                        </li>
+                        <p>Proin varius congue augue, ac auctor nibh auctor iaculis. Phasellus ac ante velit. Aliquam eu
+                            ornare
+                            justo.
+                            Suspendisse sit amet erat quis ante imperdiet tincidunt non non purus.
+                            Ut fermentum sem id tortor rutrum, non ultrices magna dapibus.</p>
+                    </ul>
+                </section>
+                <section id="Formación">
+                    <h2>Formación academica</h2>
+                    <ul>
+                        <li>
+                            <h3>Universidad "Tortor rutrum"</h3>
+                        </li>
+
+                        <p>Ut fermentum sem id 2010 rmagna 2015</p>
+
+                        <li>
+                            <h3>Escuela media "Phasellus ac ante velit"</h3>
+                        </li>
+                        <p>Maximus tincidunt, tellus erat ultricies dui</li>
+                        </p>
+                    </ul>
+                </section>
+                <footer id="Objetivos">
+                    <h2>Objetivos</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis nisl sed tortor aliquet,
+                        in
+                        gravida nibh dapibus.
+                        Pellentesque ut consectetur metus. Integer vel risus dui. Interdum et malesuada fames ac ante
+                        ipsum
+                        primis in faucibus.
+                        Nam efficitur blandit vulputate. Nunc tempus suscipit rhoncus. Fusce at gravida dolor. Sed
+                        tincidunt
+                        nisi risus, a accumsan diam efficitur non.
+                        Cras ut justo eu elit mollis tristique vitae eget neque. In ornare ligula non enim venenatis, eu
+                        posuere ante scelerisque.</p>
+                </footer>
+            </div>
+        </div>
+        <!-- JS Externo -->
+        <script src="js/function.js"></script>
+        <!-- JS Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
